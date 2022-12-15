@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN FORMS</title>
+    </head>
+    <body>
+        <center><h1 style="color:blue">APPLICATION FORM</h1></center>
+    <center>
+       
+        <table border="2">
+            <form>
+            <tr>
+                <td><label>ENTER USER NAME:</label></td>
+                <td><input type="text" name="user name"></td>
+            </tr>
+
+            <tr>
+                <td><label>PASSWORD:</label> </td>    
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td><label>SELECT GENDER:</label></td>
+                <td><input type="radio" name="GENDER" value="MALE">MALE <br>   
+                <input type="radio" name="GENDER" value="FEMALE">FEMALE</td> 
+            </tr>
+
+            <tr>
+                <td><label>MOBILE NUMBER:</label></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><label>ENTER DOB</label></td>
+                <td><input type="date" name="DOB"></td>
+            </tr>
+
+            <tr>
+                <td><label>ENTER ADDRESS:</label></td>
+                <td><textarea rows="3" cols="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label>SELECT QUALIFICATIONS:</label></td>
+                <td>
+                    <select name="qualification">
+                    <option value="SELECT">SELECT</option>
+                    <option value="MCA">MCA</option>
+                    <option value="B.TECH">B.TECH</option>
+                    <option value="M.TECH">M.TECH</option>
+                    </select>
+               </td>
+            </tr>
+
+            <tr>
+                <td><label>Choosen Track:</label></td>
+                <td>
+                    <select name="track" multiple>
+                        <option value="fullstack web">full stack web</option>
+                        <option value="AI">AI</option>
+                        <option value="CC">CC</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>PREFERED TIMINGS:</label></td>
+                <td><input type="checkbox" name="ch1" value="9AM-1PM">9AM-1PM<br>
+                <input type="checkbox" name="ch2" value="2PM-5PM">2PM-5PM<br>
+                <input type="checkbox" name="ch3" value="6PM-9PM">6PM-9PM</td>
+            <tr>
+                <td><label>UPLOAD YOUR PHOTO:</label></td>
+                <td><input type="file" name="photo"></td>
+            </tr>
+
+            <tr>
+                <td><label>UPLOAD YOUR RESUME:</label></td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2"><center><input type="submit" value="SUBMIT"></center></td>
+                
+            </tr>       
+        </form>
+        </table>
+
+    </center>
+    </body>
+</html>
